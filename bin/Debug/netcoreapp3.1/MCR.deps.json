@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MCR/1.0.0": {
+        "dependencies": {
+          "Panuon.UI.Silver": "2.2.20"
+        },
+        "runtime": {
+          "MCR.dll": {}
+        }
+      },
+      "Panuon.UI.Core/2.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/Panuon.UI.Core.dll": {
+            "assemblyVersion": "2.2.6.0",
+            "fileVersion": "2.2.6.0"
+          }
+        }
+      },
+      "Panuon.UI.Silver/2.2.20": {
+        "dependencies": {
+          "Panuon.UI.Core": "2.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Panuon.UI.Silver.dll": {
+            "assemblyVersion": "2.2.20.0",
+            "fileVersion": "2.2.20.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MCR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Panuon.UI.Core/2.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-duhXcmodIlUdX9Cj5ApQDyqXzvionlmgE7BvzzC+ZH5P1S9jSIdN0frzuE5mDxcviTLz8WJtpqy88OM2m/K4eA==",
+      "path": "panuon.ui.core/2.2.6",
+      "hashPath": "panuon.ui.core.2.2.6.nupkg.sha512"
+    },
+    "Panuon.UI.Silver/2.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IyTxpOsSTB11fjm6W4Idbn/QWm0MbQVUKGHKMb+8pNkx39w+uP5df697WCSZSciBF/hDBP1yswS5oat4lG+oag==",
+      "path": "panuon.ui.silver/2.2.20",
+      "hashPath": "panuon.ui.silver.2.2.20.nupkg.sha512"
+    }
+  }
+}

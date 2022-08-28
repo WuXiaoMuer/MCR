@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mYvQ1wd0zej/B9tKMVztxjspFsKFNBmaGeTtCYbAZUeeLzX5JWo2huEyuZ3v7362EcWNcGUGzp7HkfwF6G/qUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\20969\\Desktop\\MCR\\MCR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\20969\\.nuget\\packages\\panuon.ui.core\\2.2.6\\panuon.ui.core.2.2.6.nupkg.sha512",
+    "C:\\Users\\20969\\.nuget\\packages\\panuon.ui.silver\\2.2.20\\panuon.ui.silver.2.2.20.nupkg.sha512"
+  ],
+  "logs": []
+}

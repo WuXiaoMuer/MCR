@@ -1,0 +1,52 @@
+﻿<pu:WindowX
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MCR"
+        xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
+        xmlns:System="clr-namespace:System;assembly=System.Runtime" x:Class="MCR.MainWindow"
+        mc:Ignorable="d"
+        Title="MCR 热量计算" Height="450" Width="800" FontSize="16"
+        >
+
+    <Grid>
+        <Button x:Name="BtnTest" 
+                pu:ButtonHelper.CornerRadius="3"
+                pu:ButtonHelper.HoverBackground="#EFEFEF"
+                pu:ButtonHelper.ClickBackground="#AAAAAA"
+                Content="计算" HorizontalAlignment="Left" Height="37" Margin="389,105,0,0" VerticalAlignment="Top" Width="72" Click="BtnTest_Click"/>
+        <ComboBox x:Name="ComboBox1" pu:ComboBoxHelper.CornerRadius="3" HorizontalAlignment="Left" Height="38" Margin="72,32,0,0" VerticalAlignment="Top" Width="78" SelectedIndex="0" Cursor="">
+            <ComboBoxItem>男</ComboBoxItem>
+            <ComboBoxItem>女</ComboBoxItem>
+        </ComboBox>
+        <Label Content="性别：" Background="White" FontSize="18" VerticalContentAlignment="Center"  HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="10,32,0,0" VerticalAlignment="Top" Width="57"/>
+        <Label Content="体重：" Background="White" FontSize="18" VerticalContentAlignment="Center"  HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="166,32,0,0" VerticalAlignment="Top" Width="51"/>
+        <Label Content="身高：" Background="White" FontSize="18" VerticalContentAlignment="Center"  HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="319,32,0,0" VerticalAlignment="Top" Width="57"/>
+        <Label Content="年龄：" Background="White" FontSize="18" VerticalContentAlignment="Center"  HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="479,31,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="w" pu:TextBoxHelper.CornerRadius="3" HorizontalAlignment="Left" Height="38" Margin="222,32,0,0" Text="60" TextWrapping="Wrap" VerticalAlignment="Top" Width="42"/>
+        <Label Content="Kg" Background="White" FontSize="18" VerticalContentAlignment="Center"  HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="38" Margin="269,32,0,0" VerticalAlignment="Top" Width="39"/>
+        <TextBox x:Name="h" pu:TextBoxHelper.CornerRadius="3" HorizontalAlignment="Center" Height="38" Margin="0,32,0,0" Text="180" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"/>
+        <Label Content="cm" Background="White" FontSize="18" VerticalContentAlignment="Center"  HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="38" Margin="424,32,0,0" VerticalAlignment="Top" Width="37"/>
+        <TextBox x:Name="age" pu:TextBoxHelper.CornerRadius="3" HorizontalAlignment="Left" Height="38" Margin="536,32,0,0" Text="20" TextWrapping="Wrap" VerticalAlignment="Top" Width="37"/>
+        <Label Content="岁" Background="White" FontSize="18" VerticalContentAlignment="Center"  HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="38" Margin="578,31,0,0" VerticalAlignment="Top" Width="37"/>
+        <Label Content="运动系数：" Background="White" FontSize="18" VerticalContentAlignment="Center"  HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="38" Margin="14,105,0,0" VerticalAlignment="Top" Width="100"/>
+        <ComboBox x:Name="mc" pu:ComboBoxHelper.CornerRadius="3" HorizontalAlignment="Left" Height="38" Margin="118,105,0,0" VerticalAlignment="Top" Width="234" SelectedIndex="0" Cursor="">
+            <ComboBoxItem Content="1.2 几乎不运动"/>
+            <ComboBoxItem Content="1.375 每周一到三天少量"/>
+            <ComboBoxItem Content="1.550 每周三到五天中度"/>
+            <ComboBoxItem Content="1.725 每周六到七天大量"/>
+            <ComboBoxItem Content="1.9 每天两小时以上强度"/>
+        </ComboBox>
+        <ListView x:Name="ListView1" HorizontalAlignment="Left" Height="259" Margin="14,166,0,0" VerticalAlignment="Top" Width="776">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="776"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+
+    </Grid>
+
+</pu:WindowX>

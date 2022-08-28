@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Panuon.UI.Core/2.2.6": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Panuon.UI.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Panuon.UI.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "Panuon.UI.Silver/2.2.20": {
+        "type": "package",
+        "dependencies": {
+          "Panuon.UI.Core": "2.2.6"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Panuon.UI.Silver.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Panuon.UI.Silver.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Panuon.UI.Core/2.2.6": {
+      "sha512": "duhXcmodIlUdX9Cj5ApQDyqXzvionlmgE7BvzzC+ZH5P1S9jSIdN0frzuE5mDxcviTLz8WJtpqy88OM2m/K4eA==",
+      "type": "package",
+      "path": "panuon.ui.core/2.2.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Panuon.UI.Core.dll",
+        "lib/net45/Panuon.UI.Core.dll",
+        "lib/net472/Panuon.UI.Core.dll",
+        "lib/netcoreapp3.1/Panuon.UI.Core.dll",
+        "nuget.exe",
+        "panuon.ui.core.2.2.6.nupkg.sha512",
+        "panuon.ui.core.nuspec"
+      ]
+    },
+    "Panuon.UI.Silver/2.2.20": {
+      "sha512": "IyTxpOsSTB11fjm6W4Idbn/QWm0MbQVUKGHKMb+8pNkx39w+uP5df697WCSZSciBF/hDBP1yswS5oat4lG+oag==",
+      "type": "package",
+      "path": "panuon.ui.silver/2.2.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Panuon.UI.Silver.dll",
+        "lib/net45/Panuon.UI.Silver.dll",
+        "lib/net472/Panuon.UI.Silver.dll",
+        "lib/netcoreapp3.1/Panuon.UI.Silver.dll",
+        "nuget.exe",
+        "panuon.ui.silver.2.2.20.nupkg.sha512",
+        "panuon.ui.silver.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Panuon.UI.Silver >= 2.2.20"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\20969\\.nuget\\packages\\": {},
+    "D:\\Visual Studio\\shard\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\20969\\Desktop\\MCR\\MCR.csproj",
+      "projectName": "MCR",
+      "projectPath": "C:\\Users\\20969\\Desktop\\MCR\\MCR.csproj",
+      "packagesPath": "C:\\Users\\20969\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\20969\\Desktop\\MCR\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Visual Studio\\shard\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\20969\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Panuon.UI.Silver": {
+            "target": "Package",
+            "version": "[2.2.20, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
