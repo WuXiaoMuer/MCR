@@ -1,8 +1,7 @@
-# MCR-人体热量计算器小工具
-Calculate Metabolic consumption rate.
+# 人体热量计算器 Calculate Metabolic consumption rate.
 
-# MCR
+# 图标和屏幕截图 icon and screenshot.
 
-![ico](/MCR.png)
+![icon](/icon.png)
 
-![Test01](/test01.png)
+![screenshot](/screenshot.png)
